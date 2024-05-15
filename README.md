@@ -76,7 +76,7 @@ pip install pandas seaborn matplotlib scipy statsmodels
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/cookie-cats-ab-test.git
+git clone https://github.com/amirmahdavieh/cookie-cats-ab-test.git
 cd cookie-cats-ab-test
 ```
 
