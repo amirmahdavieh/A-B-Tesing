@@ -7,9 +7,6 @@ This repository contains a Jupyter notebook that analyzes the impact of moving t
 - [Introduction](#introduction)
 - [Dataset](#dataset)
 - [Steps of Analysis](#steps-of-analysis)
-- [Dependencies](#dependencies)
-- [Usage](#usage)
-
 
 ## Introduction
 
@@ -55,36 +52,4 @@ We analyze the impact of moving the gate from level 30 to level 40 on player ret
 - Define the control group (`gate_30`) and treatment group (`gate_40`).
 - Calculate the required sample size for detecting a 5% increase in retention using a z-test for proportions.
 - Conduct a chi-square test to compare retention rates after 7 days between the two groups.
-
-## Dependencies
-
-The following Python libraries are required to run the notebook:
-- pandas
-- seaborn
-- matplotlib
-- scipy
-- statsmodels
-
-You can install these dependencies using `pip`:
-
-```bash
-pip install pandas seaborn matplotlib scipy statsmodels
-```
-
-## Usage
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/amirmahdavieh/cookie-cats-ab-test.git
-cd cookie-cats-ab-test
-```
-
-2. Open the Jupyter notebook:
-
-```bash
-jupyter notebook cookie_cats_ab_test.ipynb
-```
-
-3. Follow the steps in the notebook to analyze the data.
 
